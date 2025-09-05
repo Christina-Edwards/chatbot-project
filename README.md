@@ -45,10 +45,10 @@ Describe your project here. What does the chatbot do? Why is it useful or intere
 
 ### Step 1: Setup  
 - [x] Create README  
-- [X] All required files created: `index.html`, `chatbot.js`, `helpers-full.js`, `secret-variables.js`, `README.md`, `.gitignore`  
-- [X ] Bootstrap CSS linked and scripts included in correct order  
-- [X ] Git repository initialized with first commit  
-- [ ] Live server runs and page loads without errors  
+- [x] All required files created: `index.html`, `chatbot.js`, `helpers-full.js`, `secret-variables.js`, `README.md`, `.gitignore`  
+- [x] Bootstrap CSS linked and scripts included in correct order  
+- [x] Git repository initialized with first commit  
+- [x] Live server runs and page loads without errors  
 
 ### Step 2: UI & DOM Wiring  
 - [ ] Input field, send button, and output area added to HTML  
