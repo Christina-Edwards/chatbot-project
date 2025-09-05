@@ -9,10 +9,10 @@ function setText(id, message) {
 
 document.addEventListener("DOMContentLoaded", function () {
   const button = document.getElementById("sendBtn");
-  const input = document.getElementById("userPrompt");
-
   button.addEventListener("click", function () {
+    const input = document.getElementById("userPrompt");
     const message = input.value;
-    document.getElementById("chatOutput").textContent = message;
+    setText("chatOutput", message);
   });
 });
+  
