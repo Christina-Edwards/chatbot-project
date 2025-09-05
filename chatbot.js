@@ -6,5 +6,13 @@ function setText(id, message) {
     console.error(`Element with ID "${id}" not found.`);
   }
 }
-setText('status', 'Chatbot is ready!');
-setText('chatOutput', 'Hello!');
+
+document.addEventListener("DOMContentLoaded", function () {
+  const button = document.getElementById("sendBtn");
+  const input = document.getElementById("userPrompt");
+
+  button.addEventListener("click", function () {
+    const message = input.value;
+    document.getElementById("chatOutput").textContent = message;
+  });
+});
