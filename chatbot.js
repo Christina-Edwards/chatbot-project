@@ -4,6 +4,7 @@ function setText(id, message) {
     el.textContent = message;
   } else {
     console.error(`Element with ID "${id}" not found.`);
+    
   }
 }
 
@@ -13,6 +14,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const input = document.getElementById("userPrompt");
     const message = input.value;
     setText("chatOutput", message);
+    getValue("userPrompt", message);
+    console.log("Button clicked, message set.");
   });
 });
   
